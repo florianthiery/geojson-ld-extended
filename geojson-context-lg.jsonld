@@ -1,0 +1,12 @@
+{
+  "@context": {
+    "geojson-lg": "https://linkedgeodesy.org/geojson/vocab#",
+    "id": "@id",
+    "type": "@type",
+    "relation": "geojson-lg:relation",
+    "metadata": {
+      "@container": "@list",
+      "@id": "geojson-lg:metadata"
+    }
+  }
+}
