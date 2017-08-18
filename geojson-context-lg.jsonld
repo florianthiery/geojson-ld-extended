@@ -3,7 +3,7 @@
     "geojson-lg": "https://linkedgeodesy.org/geojson/vocab#",
     "id": "@id",
     "type": "@type",
-    "relation": "geojson-lg:relation",
+    "gazetteerrelation": "geojson-lg:gazetteerrelation",
     "metadata": {
       "@container": "@list",
       "@id": "geojson-lg:metadata"
