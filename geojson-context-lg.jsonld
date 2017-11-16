@@ -24,7 +24,10 @@
 		},
 		"geometry": "geojson:geometry",
 		"id": "@id",
-		"properties": "geojson:properties",
+    "properties": {
+			"@container": "@set",
+			"@id": "geojson:properties"
+		},
 		"type": "@type",
     "geojson-lg": "https://linkedgeodesy.org/geojson/vocab#",
     "gazetteerid": "geojson-lg:gazetteerid",
