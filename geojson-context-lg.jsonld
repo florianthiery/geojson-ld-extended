@@ -58,6 +58,14 @@
     "gazetteerString": "https://linkedgeodesy.org/geojson/vocab#gazetteerString",
     "normalizedlevenshtein": "https://linkedgeodesy.org/geojson/vocab#normalizedlevenshtein",
     "dameraulevenshtein": "https://linkedgeodesy.org/geojson/vocab#dameraulevenshtein",
-    "jarowinkler": "https://linkedgeodesy.org/geojson/vocab#jarowinkler"
+    "jarowinkler": "https://linkedgeodesy.org/geojson/vocab#jarowinkler",
+    "periodid": "https://linkedgeodesy.org/geojson/vocab#periodid",
+    "gazetteerrelation": "https://linkedgeodesy.org/geojson/vocab#gazetteerrelation",
+    "chronontology": "https://linkedgeodesy.org/geojson/vocab#chronontology",
+    "when": "https://linkedgeodesy.org/geojson/vocab#when",
+    "coverage": {
+			"@container": "@list",
+			"@id": "https://linkedgeodesy.org/geojson/vocab#coverage"
+		},
 	}
 }
