@@ -33,6 +33,16 @@
       "@container": "@set",
       "@id": "https://linkedgeodesy.org/geojson/vocab#names"
     },
-    "prefName": "https://linkedgeodesy.org/geojson/vocab#prefName"
+    "prefName": "https://linkedgeodesy.org/geojson/vocab#prefName",
+    "metadata": "https://linkedgeodesy.org/geojson/vocab#metadata",
+    "searchstring": "https://linkedgeodesy.org/geojson/vocab#searchstring",
+    "upperleftLon": "https://linkedgeodesy.org/geojson/vocab#upperleftLon",
+    "lowerleftLon": "https://linkedgeodesy.org/geojson/vocab#lowerleftLon",
+    "lowerrightLat": "https://linkedgeodesy.org/geojson/vocab#lowerrightLat",
+    "upperrightLon": "https://linkedgeodesy.org/geojson/vocab#upperrightLon",
+    "upperleftLat": "https://linkedgeodesy.org/geojson/vocab#upperleftLat",
+    "lowerleftLat": "https://linkedgeodesy.org/geojson/vocab#lowerleftLat",
+    "lowerrightLon": "https://linkedgeodesy.org/geojson/vocab#lowerrightLon",
+    "upperrightLat": "https://linkedgeodesy.org/geojson/vocab#upperrightLat",
 	}
 }
