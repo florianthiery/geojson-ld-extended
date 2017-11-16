@@ -27,7 +27,8 @@
     "properties": "geojson:properties",
 		"type": "@type",
     "gazetteerid": "https://linkedgeodesy.org/geojson/vocab#gazetteerid",
-    "gazetteertype": "https://linkedgeodesy.org/geojson/vocab#title",
+    "gazetteertype": "https://linkedgeodesy.org/geojson/vocab#gazetteertype",
+    "similarity": "https://linkedgeodesy.org/geojson/vocab#similarity",
     "names": {
       "@container": "@set",
       "@id": "https://linkedgeodesy.org/geojson/vocab#names"
