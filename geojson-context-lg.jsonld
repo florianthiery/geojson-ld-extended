@@ -44,5 +44,13 @@
     "lowerleftLat": "https://linkedgeodesy.org/geojson/vocab#lowerleftLat",
     "lowerrightLon": "https://linkedgeodesy.org/geojson/vocab#lowerrightLon",
     "upperrightLat": "https://linkedgeodesy.org/geojson/vocab#upperrightLat",
+    "distance": "https://linkedgeodesy.org/geojson/vocab#distance",
+    "bboxcenter": "https://linkedgeodesy.org/geojson/vocab#bboxcenter",
+    "point": "https://linkedgeodesy.org/geojson/vocab#point",
+    "searchString": "https://linkedgeodesy.org/geojson/vocab#searchString",
+    "gazetteerString": "https://linkedgeodesy.org/geojson/vocab#gazetteerString",
+    "normalizedlevenshtein": "https://linkedgeodesy.org/geojson/vocab#normalizedlevenshtein",
+    "dameraulevenshtein": "https://linkedgeodesy.org/geojson/vocab#dameraulevenshtein",
+    "jarowinkler": "https://linkedgeodesy.org/geojson/vocab#jarowinkler"
 	}
 }
