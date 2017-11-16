@@ -44,6 +44,7 @@
     "lowerleftLat": "https://linkedgeodesy.org/geojson/vocab#lowerleftLat",
     "lowerrightLon": "https://linkedgeodesy.org/geojson/vocab#lowerrightLon",
     "upperrightLat": "https://linkedgeodesy.org/geojson/vocab#upperrightLat",
+    "similarity": "https://linkedgeodesy.org/geojson/vocab#similarity",
     "distance": "https://linkedgeodesy.org/geojson/vocab#distance",
     "bboxcenter": {
 			"@container": "@list",
