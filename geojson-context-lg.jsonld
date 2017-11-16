@@ -27,14 +27,11 @@
     "properties": "geojson:properties",
 		"type": "@type",
     "gazetteerid": "https://linkedgeodesy.org/geojson/vocab#gazetteerid",
-    "gazetteertype": "https://linkedgeodesy.org/geojson/vocab#gazetteertype",
+    "gazetteertype": "https://linkedgeodesy.org/geojson/vocab#title",
     "names": {
-      "@container": "@list",
+      "@container": "@set",
       "@id": "https://linkedgeodesy.org/geojson/vocab#names"
     },
-    "metadata": {
-      "@container": "@list",
-      "@id": "https://linkedgeodesy.org/geojson/vocab#metadata"
-    }
+    "prefName": "https://linkedgeodesy.org/geojson/vocab#prefName"
 	}
 }
