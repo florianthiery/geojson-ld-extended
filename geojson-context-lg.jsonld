@@ -26,16 +26,16 @@
 		"id": "@id",
     "properties": "geojson:properties",
 		"type": "@type",
-    "geojson-lg": "https://linkedgeodesy.org/geojson/vocab#",
-    "gazetteerid": "geojson-lg:gazetteerid",
-    "gazetteertype": "geojson-lg:gazetteertype",
+    "geojsonplusld": "https://linkedgeodesy.org/geojson/vocab#",
+    "gazetteerid": "geojsonplusld:gazetteerid",
+    "gazetteertype": "geojsonplusld:gazetteertype",
     "names": {
       "@container": "@list",
-      "@id": "geojson-lg:names"
+      "@id": "geojsonplusld:names"
     },
     "metadata": {
       "@container": "@list",
-      "@id": "geojson-lg:metadata"
+      "@id": "geojsonplusld:metadata"
     }
 	}
 }
