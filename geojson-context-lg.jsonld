@@ -45,7 +45,6 @@
     "lowerleftLat": "geojsonplus:lowerleftLat",
     "lowerrightLon": "geojsonplus:lowerrightLon",
     "upperrightLat": "geojsonplus:upperrightLat",
-    "similarity": "geojsonplus:similarity",
     "distance": "geojsonplus:distance",
     "bboxcenter": {
 			"@container": "@list",
