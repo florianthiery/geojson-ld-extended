@@ -26,16 +26,33 @@
 		"id": "@id",
     "properties": "geojson:properties",
 		"type": "@type",
+
 		"geojsonplus": "http://linkedgeodesy.org/geojsonplus/vocab#",
     "gazetteerid": "geojsonplus:gazetteerid",
-    "gazetteertype": "geojsonplus:gazetteertype",
-    "similarity": "geojsonplus:similarity",
-    "names": {
+		"gazetteeruri": "geojsonplus:gazetteeruri",
+		"names": {
       "@container": "@list",
       "@id": "geojsonplus:names"
     },
-    "prefName": "geojsonplus:prefName",
-    "metadata": "geojsonplus:metadata",
+		"prefName": "geojsonplus:prefName",
+		"similarity": "geojsonplus:similarity",
+		"distance": "geojsonplus:distance",
+    "bboxcenter": {
+			"@container": "@list",
+			"@id": "geojsonplus:bboxcenter"
+		},
+    "point": {
+			"@container": "@list",
+			"@id": "geojsonplus:point"
+		},
+		"searchString": "geojsonplus:searchString",
+    "gazetteerString": "geojsonplus:gazetteerString",
+		"levenshtein": "geojsonplus:levenshtein",
+    "normalizedlevenshtein": "geojsonplus:normalizedlevenshtein",
+    "dameraulevenshtein": "geojsonplus:dameraulevenshtein",
+    "jarowinkler": "geojsonplus:jarowinkler",
+		"metadata": "geojsonplus:metadata",
+		"gazetteertype": "geojsonplus:gazetteertype",
     "searchstring": "geojsonplus:searchstring",
     "upperleftLon": "geojsonplus:upperleftLon",
     "lowerleftLon": "geojsonplus:lowerleftLon",
@@ -45,21 +62,6 @@
     "lowerleftLat": "geojsonplus:lowerleftLat",
     "lowerrightLon": "geojsonplus:lowerrightLon",
     "upperrightLat": "geojsonplus:upperrightLat",
-    "distance": "geojsonplus:distance",
-    "bboxcenter": {
-			"@container": "@list",
-			"@id": "geojsonplus:bboxcenter"
-		},
-    "point": {
-			"@container": "@list",
-			"@id": "geojsonplus:point"
-		},
-    "searchString": "geojsonplus:searchString",
-    "gazetteerString": "geojsonplus:gazetteerString",
-		"levenshtein": "geojsonplus:levenshtein",
-    "normalizedlevenshtein": "geojsonplus:normalizedlevenshtein",
-    "dameraulevenshtein": "geojsonplus:dameraulevenshtein",
-    "jarowinkler": "geojsonplus:jarowinkler",
     "periodid": "geojsonplus:periodid",
     "gazetteerrelation": "geojsonplus:gazetteerrelation",
     "chronontology": "geojsonplus:chronontology",
@@ -67,7 +69,6 @@
     "coverage": {
 			"@container": "@list",
 			"@id": "geojsonplus:coverage"
-		},
-		"gazetteeruri": "geojsonplus:gazetteeruri"
+		}
 	}
 }
