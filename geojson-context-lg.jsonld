@@ -67,5 +67,6 @@
 			"@container": "@list",
 			"@id": "https://linkedgeodesy.org/geojson/vocab#coverage"
 		},
+		"gazetteeruri": "https://linkedgeodesy.org/geojson/vocab#gazetteeruri"
 	}
 }
