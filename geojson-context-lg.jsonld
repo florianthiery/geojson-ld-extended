@@ -27,7 +27,7 @@
     "properties": "geojson:properties",
 		"type": "@type",
 
-		"geojsonplus": "http://linkedgeodesy.org/geojsonplus/vocab#",
+		"geojsonplus": "http://geojsonplus.linkedgeodesy.org/vocab#",
     "gazetteerid": "geojsonplus:gazetteerid",
 		"gazetteeruri": "geojsonplus:gazetteeruri",
 		"names": {
