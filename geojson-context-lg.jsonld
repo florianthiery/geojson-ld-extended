@@ -31,7 +31,7 @@
     "gazetteertype": "geojsonplus:gazetteertype",
     "similarity": "geojsonplus:similarity",
     "names": {
-      "@container": "@set",
+      "@container": "@list",
       "@id": "geojsonplus:names"
     },
     "prefName": "geojsonplus:prefName",
@@ -57,6 +57,7 @@
 		},
     "searchString": "geojsonplus:searchString",
     "gazetteerString": "geojsonplus:gazetteerString",
+		"levenshtein": "geojsonplus:levenshtein",
     "normalizedlevenshtein": "geojsonplus:normalizedlevenshtein",
     "dameraulevenshtein": "geojsonplus:dameraulevenshtein",
     "jarowinkler": "geojsonplus:jarowinkler",
