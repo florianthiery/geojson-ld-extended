@@ -26,47 +26,48 @@
 		"id": "@id",
     "properties": "geojson:properties",
 		"type": "@type",
-    "gazetteerid": "https://linkedgeodesy.org/geojson/vocab#gazetteerid",
-    "gazetteertype": "https://linkedgeodesy.org/geojson/vocab#gazetteertype",
-    "similarity": "https://linkedgeodesy.org/geojson/vocab#similarity",
+		"geojsonplus": "https://purl.org/geojsonplus/vocab#",
+    "gazetteerid": "geojsonplus:gazetteerid",
+    "gazetteertype": "geojsonplus:gazetteertype",
+    "similarity": "geojsonplus:similarity",
     "names": {
       "@container": "@set",
-      "@id": "https://linkedgeodesy.org/geojson/vocab#names"
+      "@id": "geojsonplus:names"
     },
-    "prefName": "https://linkedgeodesy.org/geojson/vocab#prefName",
-    "metadata": "https://linkedgeodesy.org/geojson/vocab#metadata",
-    "searchstring": "https://linkedgeodesy.org/geojson/vocab#searchstring",
-    "upperleftLon": "https://linkedgeodesy.org/geojson/vocab#upperleftLon",
-    "lowerleftLon": "https://linkedgeodesy.org/geojson/vocab#lowerleftLon",
-    "lowerrightLat": "https://linkedgeodesy.org/geojson/vocab#lowerrightLat",
-    "upperrightLon": "https://linkedgeodesy.org/geojson/vocab#upperrightLon",
-    "upperleftLat": "https://linkedgeodesy.org/geojson/vocab#upperleftLat",
-    "lowerleftLat": "https://linkedgeodesy.org/geojson/vocab#lowerleftLat",
-    "lowerrightLon": "https://linkedgeodesy.org/geojson/vocab#lowerrightLon",
-    "upperrightLat": "https://linkedgeodesy.org/geojson/vocab#upperrightLat",
-    "similarity": "https://linkedgeodesy.org/geojson/vocab#similarity",
-    "distance": "https://linkedgeodesy.org/geojson/vocab#distance",
+    "prefName": "geojsonplus:prefName",
+    "metadata": "geojsonplus:metadata",
+    "searchstring": "geojsonplus:searchstring",
+    "upperleftLon": "geojsonplus:upperleftLon",
+    "lowerleftLon": "geojsonplus:lowerleftLon",
+    "lowerrightLat": "geojsonplus:lowerrightLat",
+    "upperrightLon": "geojsonplus:upperrightLon",
+    "upperleftLat": "geojsonplus:upperleftLat",
+    "lowerleftLat": "geojsonplus:lowerleftLat",
+    "lowerrightLon": "geojsonplus:lowerrightLon",
+    "upperrightLat": "geojsonplus:upperrightLat",
+    "similarity": "geojsonplus:similarity",
+    "distance": "geojsonplus:distance",
     "bboxcenter": {
 			"@container": "@list",
-			"@id": "https://linkedgeodesy.org/geojson/vocab#bboxcenter"
+			"@id": "geojsonplus:bboxcenter"
 		},
     "point": {
 			"@container": "@list",
-			"@id": "https://linkedgeodesy.org/geojson/vocab#point"
+			"@id": "geojsonplus:point"
 		},
-    "searchString": "https://linkedgeodesy.org/geojson/vocab#searchString",
-    "gazetteerString": "https://linkedgeodesy.org/geojson/vocab#gazetteerString",
-    "normalizedlevenshtein": "https://linkedgeodesy.org/geojson/vocab#normalizedlevenshtein",
-    "dameraulevenshtein": "https://linkedgeodesy.org/geojson/vocab#dameraulevenshtein",
-    "jarowinkler": "https://linkedgeodesy.org/geojson/vocab#jarowinkler",
-    "periodid": "https://linkedgeodesy.org/geojson/vocab#periodid",
-    "gazetteerrelation": "https://linkedgeodesy.org/geojson/vocab#gazetteerrelation",
-    "chronontology": "https://linkedgeodesy.org/geojson/vocab#chronontology",
-    "when": "https://linkedgeodesy.org/geojson/vocab#when",
+    "searchString": "geojsonplus:searchString",
+    "gazetteerString": "geojsonplus:gazetteerString",
+    "normalizedlevenshtein": "geojsonplus:normalizedlevenshtein",
+    "dameraulevenshtein": "geojsonplus:dameraulevenshtein",
+    "jarowinkler": "geojsonplus:jarowinkler",
+    "periodid": "geojsonplus:periodid",
+    "gazetteerrelation": "geojsonplus:gazetteerrelation",
+    "chronontology": "geojsonplus:chronontology",
+    "when": "geojsonplus:when",
     "coverage": {
 			"@container": "@list",
-			"@id": "https://linkedgeodesy.org/geojson/vocab#coverage"
+			"@id": "geojsonplus:coverage"
 		},
-		"gazetteeruri": "https://linkedgeodesy.org/geojson/vocab#gazetteeruri"
+		"gazetteeruri": "geojsonplus:gazetteeruri"
 	}
 }
