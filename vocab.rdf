@@ -19,13 +19,13 @@
 
 <!-- Properties -->
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#gazetteerid">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#gazetteerid">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">gazetteer ID</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-geojson</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#gazetteeruri">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#gazetteeruri">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">gazetteer URI</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-geojson</rdfs:comment>
@@ -33,13 +33,13 @@
 
 <!-- names JSON -->
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#names">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#names">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">names list</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#names-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#prefName">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#prefName">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">prefName from names list</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#names-json</rdfs:comment>
@@ -47,61 +47,61 @@
 
 <!-- similarity JSON -->
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#similarity">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#similarity">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">similarity</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#distance">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#distance">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">distance in space</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#bboxcenter">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#bboxcenter">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">bbox center coordinates as list</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#point">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#point">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">start point (lng, lat) for distance calculation as list</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#searchString">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#searchString">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">search string</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#gazetteerString">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#gazetteerString">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">gazetteer string</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#levenshtein">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#levenshtein">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">levenshtein distance</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#normalizedlevenshtein">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#normalizedlevenshtein">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">normalized levenshtein distance</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#dameraulevenshtein">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#dameraulevenshtein">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">damerau levenshtein distance</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#jarowinkler">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#jarowinkler">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">jarowinkler distance</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#similarity-json</rdfs:comment>
@@ -109,67 +109,67 @@
 
 <!-- Gazetteer Search Metadata -->
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#metadata">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#metadata">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">metadata</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#gazetteertype">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#gazetteertype">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">gazetteer type</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#searchstring">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#searchstring">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">searchstring</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#upperleftLon">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#upperleftLon">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">upperleftLon</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#lowerleftLon">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#lowerleftLon">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">lowerleftLon</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#lowerrightLat">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#lowerrightLat">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">lowerrightLat</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#upperrightLon">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#upperrightLon">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">upperrightLon</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#upperleftLat">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#upperleftLat">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">upperleftLat</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#lowerleftLat">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#lowerleftLat">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">lowerleftLat</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#lowerrightLon">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#lowerrightLon">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">lowerrightLon</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#upperrightLat">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#upperrightLat">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">upperrightLat</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#gazetteer-suche</rdfs:comment>
@@ -177,31 +177,31 @@
 
 <!-- ChronOntology -->
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#periodid">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#periodid">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">period ID</rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#chronontology-geojson</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#gazetteerrelation">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#gazetteerrelation">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">gazetteer relation<rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#chronontology-geojson</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#chronontology">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#chronontology">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">chronontology link<rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#chronontology-geojson</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#when">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#when">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">chronontology time objects as list<rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#chronontology-geojson</rdfs:comment>
 </rdf:Property>
 
-<rdf:Property rdf:about="https://purl.org/geojson/vocab#coverage">
+<rdf:Property rdf:about="hhttp://geojsonplus.linkedgeodesy.org/vocab#coverage">
     <rdfs:isDefinedBy rdf:resource="http://geojsonplus.linkedgeodesy.org/vocab#" />
     <rdfs:label xml:lang="en">chronontology coverage as list<rdfs:label>
     <rdfs:comment xml:lang="en">https://github.com/linkedgeodesy/geojson-plus/blob/master/datamodel.md#chronontology-geojson</rdfs:comment>
