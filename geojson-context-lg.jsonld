@@ -26,7 +26,7 @@
 		"id": "@id",
     "properties": "geojson:properties",
 		"type": "@type",
-		"geojsonplus": "https://purl.org/geojsonplus/vocab#",
+		"geojsonplus": "http://linkedgeodesy.org/geojsonplus/vocab#",
     "gazetteerid": "geojsonplus:gazetteerid",
     "gazetteertype": "geojsonplus:gazetteertype",
     "similarity": "geojsonplus:similarity",
