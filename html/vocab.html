@@ -18,17 +18,63 @@
       <article class="splash">
 <h1 id="geojson-ld-vocabulary">GeoJSON+ Linked Data Vocabulary</h1>
 
+<p><strong>Author</strong>: Florian Thiery (i3mainz)</p>
+
+<p><strong>Revision</strong>: 1.0</p>
+
+<p><strong>Date</strong>: 2017-11-17</p>
+
+<p><strong>Abstract</strong>: A vocabulary and JSON-LD context for <a href="http://geojsonplus.linkedgeodesy.org">GeoJSON+</a>. GeoJSON+ Linked Data defines a base context for processing <a href="http://geojsonplus.linkedgeodesy.org">GeoJSON+</a> according to the
+<a href="https://www.w3.org/TR/json-ld/">JSON-LD</a> processing model. Use the
+<a href="https://json-ld.org/playground/">JSON-LD</a> Playground for samples.</p>
+
+<p><strong>Copyright</strong>: This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0
+International License</a>.</p>
+
+<h2 id="vocabulary">Vocabulary</h2>
+
+<p>GeoJSON+ Linked Data vocabulary is published as RDF/XML at
+<a href="http://geojsonplus.linkedgeodesy.org/vocab.rdf">http://geojsonplus.linkedgeodesy.org/vocab.rdf</a>.</p>
+
+<p>An HTML version is published at
+<a href="http://geojsonplus.linkedgeodesy.org/vocab.html">http://geojsonplus.linkedgeodesy.org/vocab.html</a>.</p>
+
+<p>This document is based on <a href="http://geojson.org/geojson-ld/">GEOJSON-LD</a> by Sean Gillies (Mapbox) with a CC BY 4.0 license.</p>
+
+<h2 id="namespace">Namespace</h2>
+
+<p>GeoJSON+ Linked Data namespace is <code class="highlighter-rouge">http://geojsonplus.linkedgeodesy.org/vocab#</code>.</p>
+
+<h2 id="context">Context</h2>
+
+<p>GeoJSON+ Linked Data context is published at
+<a href="http://geojsonplus.linkedgeodesy.org/geojson-context-lg.jsonld">http://geojsonplus.linkedgeodesy.org/geojson-context-lg.jsonld</a>.</p>
+
+<h2 id="github-repository">GitHub repository</h2>
+
 <p>See <a href="https://github.com/linkedgeodesy/geojson-plus-ld">https://github.com/linkedgeodesy/geojson-plus-ld</a>
 for vocabulary developments.</p>
 
-<p>A RDF/XML description of this vocabulary is published at
-<a href="http://geojsonplus.linkedgeodesy.org/vocab.rdf">http://geojsonplus.linkedgeodesy.org/vocab.rdf</a>.</p>
+<h2 id="outstanding-issues">Outstanding issues</h2>
+
+<p>Nested GeoJSON coordinate arrays are incompatible with the processing model
+of JSON-LD 1.0. There are no current best practices for addressing this issue.
+Applications that process GeoJSON as JSON-LD using the GeoJSON-LD 1.0 context
+must take extra steps not defined here to ensure that geometric coordinates
+are processed appropriately.</p>
+
+<p>The "when" array is only a string. If the
+<a href="https://github.com/dainst/chronontology-data/blob/master/docs/ChronOntology%20data%20model.md#timespan-fields">
+ChronOntology Timespan fields</a> are
+fixed, it will be transformed to GeoJSON Plus LD.</p>
+
+<h2 id="see-also">About this Document</h2>
 
 <p>This document is based on the <a href="http://geojson.org/geojson-ld/vocab.html">GEOJSON-LD VOCABULARY</a> by Sean Gillies (Mapbox) with a CC BY 4.0 license.</p>
 
 <h2 id="geojson-elements">Core</h2>
 
-<p>GeoJSON+ Lied Data is based on the <a href="http://geojson.org/geojson-ld/vocab.html">GEOJSON-LD VOCABULARY</a> and uses all the GeoJSON Elements and properties.</p>
+<p>GeoJSON+ Linked Data is based on the <a href="http://geojson.org/geojson-ld/vocab.html">GEOJSON-LD VOCABULARY</a> and uses all the GeoJSON Elements and properties.</p>
 
 <h2 id="geojson-elements">Core Elements</h2>
 
